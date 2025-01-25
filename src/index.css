@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* index.css */
+.custom-bg {
+  background-image: url("./assets/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+html {
+  overflow-y: scroll;
+}
